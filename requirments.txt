@@ -1,0 +1,13 @@
+# python of any version of python3 is required
+# Flask 2.0.2
+use <pip install Flask> to install
+# Flask-SQLAlchemy 2.5.1
+use <pip install Flask-SQLAlchemy> to install
+# Requests 2.26.0 
+use <pip install requests> to install
+# Selenium 4.0
+use <pip install selenium> to install
+# Webdriver-manager 3.5.2 
+use <pip install webdriver-manager> to install
+
+# if you have got psycopg2 error, try to use <pip install psycopg2-binary> command

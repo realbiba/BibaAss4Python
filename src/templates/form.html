@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <div align = 'center'>
+    <form method="post" align='center' style='width:40%'>
+            <input type=text name=coin>
+            <input type=submit value=Check>
+    </form> 
+    {% if articles %}
+        {% for article in articles: %}
+            <div style='width:40%'>
+            <h1>{{article.title}}</h1>
+            <p>{{article.body}}</p>
+            <a href="{{article.link}}">{{article.link}}</a><br><br>
+            </div>
+        {% endfor %}
+    {% endif %}
+    </div>
+</body>
+</html>
